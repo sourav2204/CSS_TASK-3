@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      ul {
+        list-style-type: none;
+      }
+      ul li::before {
+        content: "\2022"; /* Unicode character for a round bullet */
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>
+        one
+        <ul>
+          <li>sub one</li>
+          <li>sub two</li>
+        </ul>
+      </li>
+      <li>
+        two
+        <ul>
+          <li>sub one</li>
+          <li>sub two</li>
+        </ul>
+      </li>
+      <li>
+        three
+        <ul>
+          <li>sub one</li>
+          <li>sub two</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+<!--Coded by Sourav-->
